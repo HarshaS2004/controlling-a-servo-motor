@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "Harsha Suji",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": -85.8, "left": -845.4, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": -251.6, "left": -816, "attrs": {} }
+  ],
+  "connections": [
+    [ "servo1:V+", "uno:5V", "green", [ "h124.8", "v278.5" ] ],
+    [ "servo1:GND", "uno:GND.1", "black", [ "h86.4", "v105.6" ] ],
+    [ "servo1:PWM", "uno:9", "green", [ "h134.4", "v86.6" ] ]
+  ],
+  "dependencies": {}
+}
